@@ -282,6 +282,7 @@ img {
 .main-team-item {
   flex-basis: culc((100% - 120px) / 4);
   margin-left: 30px;
+
   max-width: 270px;
   height: 368;
   background: #ffffff;
@@ -347,6 +348,8 @@ img {
 .main-portfolio-projects {
   display: flex;
   flex-wrap: wrap;
+  /* justify-content: space-between; */
+
   margin-left: -30px;
   margin-top: -30px;
 }
@@ -355,10 +358,18 @@ img {
   flex-basis: calc((100% - 270px) / 9);
   margin-left: 30px;
   margin-top: 30px;
-  background: #ffffff;
+
+  /* border: 1px solid #eeeeee;
+  box-sizing: border-box; */
+  /* background: #ffffff;
   border: 1px solid #eeeeee;
-  box-sizing: border-box;
+  box-sizing: border-box; */
 }
+
+/* .main-portfolio-project-item:not(:last-child) {
+  margin-right: 30px;
+  margin-bottom: 30px; 
+} */
 
 .portfolio-title {
   font-weight: 700;
